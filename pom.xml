@@ -147,6 +147,16 @@
             <artifactId>itext</artifactId>
             <version>${version.com.lowagie.itext}</version>
         </dependency>
+        <dependency>
+          <groupId>org.apache.cxf</groupId>
+          <artifactId>cxf-rt-frontend-jaxws</artifactId>
+          <version>${version.org.apache.cxf}</version>
+        </dependency>
+        <dependency>
+          <groupId>org.apache.cxf</groupId>
+          <artifactId>cxf-rt-transports-http</artifactId>
+          <version>${version.org.apache.cxf}</version>
+        </dependency>
     </dependencies>
 
     <distributionManagement>
